@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Áp dụng cho toàn bộ trang web */
+::-webkit-scrollbar {
+    width: 12px; /* Chiều rộng thanh cuộn dọc */
+    height: 12px; /* Chiều cao thanh cuộn ngang */
+}
+
+::-webkit-scrollbar-track {
+    background: #fef3c7; /* Màu nền của thanh cuộn */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f59e0b; /* Màu của thanh cuộn */
+    border-radius: 6px; /* Độ bo góc */
+    border: 2px solid #fef3c7; /* Viền của thanh cuộn */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #d97706; /* Màu khi hover */
+}
